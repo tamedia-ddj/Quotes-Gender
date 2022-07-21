@@ -22,7 +22,7 @@ The main questions that motivated us during this project were the following in n
 
 - #### Quote extraction :
 
-  The code used to extract the quotes from the articles comes from the [Gendered News](https://github.com/getalp/genderednews) project. It uses syntactic rules in order to find the quotes. It can find both direct and indirect quotes, extract the quote's author and their gender. It uses a runtime-fixed list of verbs to find them whenever they are used as a way to introduce a quote.
+  The code used to extract the quotes from the articles comes from the [Gendered News](https://github.com/getalp/genderednews) project. It uses syntactic rules in order to find both direct and indirect quotes, extract the quote's author and their gender. It takes advantage of a runtime-fixed list of verbs to identify whenever they introduce a quote.
 
 - #### Topic modelling :
   The code used to cluster the articles and citations into topics uses multiple embedding methods (one is camemBERT), reduces the dimensionality of the embeddings using UMAP, and finally clusters the topics using either HDBSCAN or k-means to cluster the embeddings into topics.
@@ -34,7 +34,7 @@ The main questions that motivated us during this project were the following in n
 - `Code` : contains all jupyter notebooks and `.py` files used during analysis
 - `Data` : contains the data (processed or not) about the articles
 - `img` : contains the plots used in the report due to Tamedia
-- `quote_extractor`: contains part of the code used by [Gendered News](https://github.com/getalp/genderednews), more specifically the code related to the extraction of quotes from french texts.
+- `quote_extractor`: contains part of the code used by [Gendered News](https://github.com/getalp/genderednews), more specifically the code related to the [extraction of quotes](https://github.com/getalp/genderednews/tree/main/gn_modules/processing/processings/quote_extractor) from french texts.
 
 ## Required packages:
 
