@@ -1,11 +1,11 @@
-# How differently are men and women cited in Swiss media ?
+# How differently are men and women cited in Swiss media?
 
 
 
 ## Abstract:
 This repository corresponds to the project we did in the context of the EPFL course "Social and Human Sciences: Critical Data Studies", which we conducted in collaboration with Titus Plattner and Paul Ronga.
 
-The goal of the project was to study the distribution/possible disparities in the proportion and the way men and women were cited in Swiss newspapers - more precisely, our analysis was conducted on more than 8000 articles from [Tribune de Genève](https://www.tdg.ch/) and [24Heures](https://www.24heures.ch/) .
+The goal of the project was to study the distribution/possible disparities in the proportion and the way men and women were cited in Swiss newspapers - more precisely, our analysis was conducted on more than 8000 articles from [Tribune de Genève](https://www.tdg.ch/) and [24 heures](https://www.24heures.ch/) .
 
 ## Questions we asked ourselves: 
 The main questions that motivated us during this project were the following in no particular order of importance or processing:
